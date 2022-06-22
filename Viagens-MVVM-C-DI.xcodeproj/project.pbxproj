@@ -77,12 +77,10 @@
 		DD7771092863B2E7000ED6D5 /* Viagens-MVVM-C-DI */ = {
 			isa = PBXGroup;
 			children = (
-				DD77710A2863B2E7000ED6D5 /* AppDelegate.swift */,
-				DD77710C2863B2E7000ED6D5 /* SceneDelegate.swift */,
-				DD77710E2863B2E7000ED6D5 /* ViewController.swift */,
-				DD7771132863B2E8000ED6D5 /* Assets.xcassets */,
-				DD7771152863B2E8000ED6D5 /* LaunchScreen.storyboard */,
+				DD77713B2863B4F1000ED6D5 /* Application */,
+				DD77713A2863B4E0000ED6D5 /* Resources */,
 				DD7771182863B2E8000ED6D5 /* Info.plist */,
+				DD77710E2863B2E7000ED6D5 /* ViewController.swift */,
 			);
 			path = "Viagens-MVVM-C-DI";
 			sourceTree = "<group>";
@@ -94,6 +92,24 @@
 				DD7771232863B2E8000ED6D5 /* Info.plist */,
 			);
 			path = "Viagens-MVVM-C-DITests";
+			sourceTree = "<group>";
+		};
+		DD77713A2863B4E0000ED6D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD7771132863B2E8000ED6D5 /* Assets.xcassets */,
+				DD7771152863B2E8000ED6D5 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DD77713B2863B4F1000ED6D5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DD77710A2863B2E7000ED6D5 /* AppDelegate.swift */,
+				DD77710C2863B2E7000ED6D5 /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
