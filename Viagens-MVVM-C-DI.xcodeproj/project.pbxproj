@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -31,6 +31,13 @@
 		DD77715F2863C1AB000ED6D5 /* LibAlamofireAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77715E2863C1AB000ED6D5 /* LibAlamofireAdapter.swift */; };
 		DD7771612863C1E8000ED6D5 /* LibNetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771602863C1E8000ED6D5 /* LibNetworkManagerProtocol.swift */; };
 		DD7771632863C1FC000ED6D5 /* LibNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771622863C1FC000ED6D5 /* LibNetworkManager.swift */; };
+		DD7771662863C3B7000ED6D5 /* TestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771652863C3B7000ED6D5 /* TestFactory.swift */; };
+		DD77716A2863C40E000ED6D5 /* ModelIdTitleFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771692863C40E000ED6D5 /* ModelIdTitleFake.swift */; };
+		DD77716C2863C428000ED6D5 /* LibNetworkManagerIdTitleFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77716B2863C428000ED6D5 /* LibNetworkManagerIdTitleFake.swift */; };
+		DD77716E2863C497000ED6D5 /* LibAlamofireAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77716D2863C497000ED6D5 /* LibAlamofireAdapterTests.swift */; };
+		DD7771702863C4EC000ED6D5 /* UrlProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77716F2863C4EC000ED6D5 /* UrlProtocolStub.swift */; };
+		DD7771722863C5D2000ED6D5 /* LibNetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771712863C5D2000ED6D5 /* LibNetworkManagerTests.swift */; };
+		DD7771742863C5FC000ED6D5 /* LibHttpClientProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771732863C5FC000ED6D5 /* LibHttpClientProtocolMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +81,13 @@
 		DD77715E2863C1AB000ED6D5 /* LibAlamofireAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibAlamofireAdapter.swift; sourceTree = "<group>"; };
 		DD7771602863C1E8000ED6D5 /* LibNetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibNetworkManagerProtocol.swift; sourceTree = "<group>"; };
 		DD7771622863C1FC000ED6D5 /* LibNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibNetworkManager.swift; sourceTree = "<group>"; };
+		DD7771652863C3B7000ED6D5 /* TestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFactory.swift; sourceTree = "<group>"; };
+		DD7771692863C40E000ED6D5 /* ModelIdTitleFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelIdTitleFake.swift; sourceTree = "<group>"; };
+		DD77716B2863C428000ED6D5 /* LibNetworkManagerIdTitleFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibNetworkManagerIdTitleFake.swift; sourceTree = "<group>"; };
+		DD77716D2863C497000ED6D5 /* LibAlamofireAdapterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibAlamofireAdapterTests.swift; sourceTree = "<group>"; };
+		DD77716F2863C4EC000ED6D5 /* UrlProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlProtocolStub.swift; sourceTree = "<group>"; };
+		DD7771712863C5D2000ED6D5 /* LibNetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibNetworkManagerTests.swift; sourceTree = "<group>"; };
+		DD7771732863C5FC000ED6D5 /* LibHttpClientProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibHttpClientProtocolMock.swift; sourceTree = "<group>"; };
 		EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viagens_MVVM_C_DITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5996ED138B971A48F61C /* Pods-Viagens-MVVM-C-DI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DI.debug.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,7 +129,6 @@
 				8221AA71BFE8395C5B331D80 /* Pods-Viagens-MVVM-C-DITests.debug.xcconfig */,
 				6548FD370B75719FA95F9B4D /* Pods-Viagens-MVVM-C-DITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,6 +167,7 @@
 		DD7771202863B2E8000ED6D5 /* Viagens-MVVM-C-DITests */ = {
 			isa = PBXGroup;
 			children = (
+				DD7771642863C3A8000ED6D5 /* Helpers */,
 				DD7771562863BBE9000ED6D5 /* Lib */,
 				DD7771232863B2E8000ED6D5 /* Info.plist */,
 			);
@@ -240,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				DD77714C2863BAE4000ED6D5 /* LibDependencyIncject */,
+				DD7771672863C3E0000ED6D5 /* LibInfra */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -255,6 +270,35 @@
 				DD7771622863C1FC000ED6D5 /* LibNetworkManager.swift */,
 			);
 			path = LibInfra;
+			sourceTree = "<group>";
+		};
+		DD7771642863C3A8000ED6D5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DD7771652863C3B7000ED6D5 /* TestFactory.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DD7771672863C3E0000ED6D5 /* LibInfra */ = {
+			isa = PBXGroup;
+			children = (
+				DD7771682863C3FF000ED6D5 /* Fake */,
+				DD77716D2863C497000ED6D5 /* LibAlamofireAdapterTests.swift */,
+				DD77716F2863C4EC000ED6D5 /* UrlProtocolStub.swift */,
+				DD7771712863C5D2000ED6D5 /* LibNetworkManagerTests.swift */,
+				DD7771732863C5FC000ED6D5 /* LibHttpClientProtocolMock.swift */,
+			);
+			path = LibInfra;
+			sourceTree = "<group>";
+		};
+		DD7771682863C3FF000ED6D5 /* Fake */ = {
+			isa = PBXGroup;
+			children = (
+				DD7771692863C40E000ED6D5 /* ModelIdTitleFake.swift */,
+				DD77716B2863C428000ED6D5 /* LibNetworkManagerIdTitleFake.swift */,
+			);
+			path = Fake;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,11 +489,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7771742863C5FC000ED6D5 /* LibHttpClientProtocolMock.swift in Sources */,
+				DD7771662863C3B7000ED6D5 /* TestFactory.swift in Sources */,
 				DD7771222863B2E8000ED6D5 /* LibServiceLocatorTests.swift in Sources */,
 				DD77714F2863BB0F000ED6D5 /* ViewModelFakeProtocol.swift in Sources */,
+				DD77716C2863C428000ED6D5 /* LibNetworkManagerIdTitleFake.swift in Sources */,
 				DD7771552863BB5A000ED6D5 /* ServiceFake.swift in Sources */,
 				DD7771532863BB47000ED6D5 /* ServiceFakeProtocol.swift in Sources */,
+				DD7771722863C5D2000ED6D5 /* LibNetworkManagerTests.swift in Sources */,
+				DD77716E2863C497000ED6D5 /* LibAlamofireAdapterTests.swift in Sources */,
+				DD77716A2863C40E000ED6D5 /* ModelIdTitleFake.swift in Sources */,
 				DD7771512863BB29000ED6D5 /* ViewModelFake.swift in Sources */,
+				DD7771702863C4EC000ED6D5 /* UrlProtocolStub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
