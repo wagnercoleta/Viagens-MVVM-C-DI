@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07842C3D3E91F963DB75AA07 /* Pods_Viagens_MVVM_C_DI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F33D03BFCAA15B5654B65C2 /* Pods_Viagens_MVVM_C_DI.framework */; };
+		5F54791AE211201C7D99EAA8 /* Pods_Viagens_MVVM_C_DITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */; };
 		DD77710B2863B2E7000ED6D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77710A2863B2E7000ED6D5 /* AppDelegate.swift */; };
 		DD77710D2863B2E7000ED6D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77710C2863B2E7000ED6D5 /* SceneDelegate.swift */; };
 		DD77710F2863B2E7000ED6D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77710E2863B2E7000ED6D5 /* ViewController.swift */; };
@@ -23,6 +25,12 @@
 		DD7771512863BB29000ED6D5 /* ViewModelFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771502863BB29000ED6D5 /* ViewModelFake.swift */; };
 		DD7771532863BB47000ED6D5 /* ServiceFakeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771522863BB47000ED6D5 /* ServiceFakeProtocol.swift */; };
 		DD7771552863BB5A000ED6D5 /* ServiceFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771542863BB5A000ED6D5 /* ServiceFake.swift */; };
+		DD7771592863C00B000ED6D5 /* LibHttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771582863C00B000ED6D5 /* LibHttpError.swift */; };
+		DD77715B2863C148000ED6D5 /* LibHttpClientGetProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77715A2863C148000ED6D5 /* LibHttpClientGetProtocol.swift */; };
+		DD77715D2863C166000ED6D5 /* LibHttpClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77715C2863C166000ED6D5 /* LibHttpClientProtocol.swift */; };
+		DD77715F2863C1AB000ED6D5 /* LibAlamofireAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77715E2863C1AB000ED6D5 /* LibAlamofireAdapter.swift */; };
+		DD7771612863C1E8000ED6D5 /* LibNetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771602863C1E8000ED6D5 /* LibNetworkManagerProtocol.swift */; };
+		DD7771632863C1FC000ED6D5 /* LibNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771622863C1FC000ED6D5 /* LibNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		202B81D1980B3786A0BF275F /* Pods-Viagens-MVVM-C-DI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DI.release.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI.release.xcconfig"; sourceTree = "<group>"; };
+		5F33D03BFCAA15B5654B65C2 /* Pods_Viagens_MVVM_C_DI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viagens_MVVM_C_DI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6548FD370B75719FA95F9B4D /* Pods-Viagens-MVVM-C-DITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DITests.release.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DITests/Pods-Viagens-MVVM-C-DITests.release.xcconfig"; sourceTree = "<group>"; };
+		8221AA71BFE8395C5B331D80 /* Pods-Viagens-MVVM-C-DITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DITests.debug.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DITests/Pods-Viagens-MVVM-C-DITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD7771072863B2E7000ED6D5 /* Viagens-MVVM-C-DI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viagens-MVVM-C-DI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD77710A2863B2E7000ED6D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD77710C2863B2E7000ED6D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +68,14 @@
 		DD7771502863BB29000ED6D5 /* ViewModelFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelFake.swift; sourceTree = "<group>"; };
 		DD7771522863BB47000ED6D5 /* ServiceFakeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFakeProtocol.swift; sourceTree = "<group>"; };
 		DD7771542863BB5A000ED6D5 /* ServiceFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFake.swift; sourceTree = "<group>"; };
+		DD7771582863C00B000ED6D5 /* LibHttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibHttpError.swift; sourceTree = "<group>"; };
+		DD77715A2863C148000ED6D5 /* LibHttpClientGetProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibHttpClientGetProtocol.swift; sourceTree = "<group>"; };
+		DD77715C2863C166000ED6D5 /* LibHttpClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibHttpClientProtocol.swift; sourceTree = "<group>"; };
+		DD77715E2863C1AB000ED6D5 /* LibAlamofireAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibAlamofireAdapter.swift; sourceTree = "<group>"; };
+		DD7771602863C1E8000ED6D5 /* LibNetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibNetworkManagerProtocol.swift; sourceTree = "<group>"; };
+		DD7771622863C1FC000ED6D5 /* LibNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibNetworkManager.swift; sourceTree = "<group>"; };
+		EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viagens_MVVM_C_DITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BF5996ED138B971A48F61C /* Pods-Viagens-MVVM-C-DI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DI.debug.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07842C3D3E91F963DB75AA07 /* Pods_Viagens_MVVM_C_DI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,18 +91,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F54791AE211201C7D99EAA8 /* Pods_Viagens_MVVM_C_DITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE3969CAE7D2E1EC91F80F51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F33D03BFCAA15B5654B65C2 /* Pods_Viagens_MVVM_C_DI.framework */,
+				EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D36ED6073326F1625183840A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3BF5996ED138B971A48F61C /* Pods-Viagens-MVVM-C-DI.debug.xcconfig */,
+				202B81D1980B3786A0BF275F /* Pods-Viagens-MVVM-C-DI.release.xcconfig */,
+				8221AA71BFE8395C5B331D80 /* Pods-Viagens-MVVM-C-DITests.debug.xcconfig */,
+				6548FD370B75719FA95F9B4D /* Pods-Viagens-MVVM-C-DITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DD7770FE2863B2E6000ED6D5 = {
 			isa = PBXGroup;
 			children = (
 				DD7771092863B2E7000ED6D5 /* Viagens-MVVM-C-DI */,
 				DD7771202863B2E8000ED6D5 /* Viagens-MVVM-C-DITests */,
 				DD7771082863B2E7000ED6D5 /* Products */,
+				D36ED6073326F1625183840A /* Pods */,
+				CE3969CAE7D2E1EC91F80F51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +184,7 @@
 				DD7771402863B69A000ED6D5 /* LibConstants */,
 				DD77713D2863B609000ED6D5 /* LibExtension */,
 				DD7771432863B743000ED6D5 /* LibDependencyIncject */,
+				DD7771572863BFDE000ED6D5 /* LibInfra */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -198,6 +244,19 @@
 			path = Lib;
 			sourceTree = "<group>";
 		};
+		DD7771572863BFDE000ED6D5 /* LibInfra */ = {
+			isa = PBXGroup;
+			children = (
+				DD7771582863C00B000ED6D5 /* LibHttpError.swift */,
+				DD77715A2863C148000ED6D5 /* LibHttpClientGetProtocol.swift */,
+				DD77715C2863C166000ED6D5 /* LibHttpClientProtocol.swift */,
+				DD77715E2863C1AB000ED6D5 /* LibAlamofireAdapter.swift */,
+				DD7771602863C1E8000ED6D5 /* LibNetworkManagerProtocol.swift */,
+				DD7771622863C1FC000ED6D5 /* LibNetworkManager.swift */,
+			);
+			path = LibInfra;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD7771312863B2E8000ED6D5 /* Build configuration list for PBXNativeTarget "Viagens-MVVM-C-DI" */;
 			buildPhases = (
+				A0318659FEEA2507437CBFB7 /* [CP] Check Pods Manifest.lock */,
 				DD7771032863B2E7000ED6D5 /* Sources */,
 				DD7771042863B2E7000ED6D5 /* Frameworks */,
 				DD7771052863B2E7000ED6D5 /* Resources */,
+				46219D8C83113536049D1865 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,6 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD7771342863B2E8000ED6D5 /* Build configuration list for PBXNativeTarget "Viagens-MVVM-C-DITests" */;
 			buildPhases = (
+				1AC86F517AE54849F843F697 /* [CP] Check Pods Manifest.lock */,
 				DD7771192863B2E8000ED6D5 /* Sources */,
 				DD77711A2863B2E8000ED6D5 /* Frameworks */,
 				DD77711B2863B2E8000ED6D5 /* Resources */,
@@ -292,6 +354,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AC86F517AE54849F843F697 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Viagens-MVVM-C-DITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46219D8C83113536049D1865 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0318659FEEA2507437CBFB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Viagens-MVVM-C-DI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD7771032863B2E7000ED6D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -299,12 +425,18 @@
 			files = (
 				DD7771492863B7B8000ED6D5 /* LibServiceLocatorProtocol.swift in Sources */,
 				DD77710F2863B2E7000ED6D5 /* ViewController.swift in Sources */,
+				DD7771592863C00B000ED6D5 /* LibHttpError.swift in Sources */,
+				DD77715F2863C1AB000ED6D5 /* LibAlamofireAdapter.swift in Sources */,
 				DD7771452863B77A000ED6D5 /* LibResolverProtocol.swift in Sources */,
 				DD77714B2863B7CF000ED6D5 /* LibServiceLocator.swift in Sources */,
 				DD77710B2863B2E7000ED6D5 /* AppDelegate.swift in Sources */,
+				DD77715D2863C166000ED6D5 /* LibHttpClientProtocol.swift in Sources */,
+				DD77715B2863C148000ED6D5 /* LibHttpClientGetProtocol.swift in Sources */,
 				DD77710D2863B2E7000ED6D5 /* SceneDelegate.swift in Sources */,
 				DD7771422863B6B2000ED6D5 /* LibConstants.swift in Sources */,
 				DD7771472863B799000ED6D5 /* LibConteinerProtocol.swift in Sources */,
+				DD7771632863C1FC000ED6D5 /* LibNetworkManager.swift in Sources */,
+				DD7771612863C1E8000ED6D5 /* LibNetworkManagerProtocol.swift in Sources */,
 				DD77713F2863B629000ED6D5 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +593,7 @@
 		};
 		DD7771322863B2E8000ED6D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3BF5996ED138B971A48F61C /* Pods-Viagens-MVVM-C-DI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -480,6 +613,7 @@
 		};
 		DD7771332863B2E8000ED6D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202B81D1980B3786A0BF275F /* Pods-Viagens-MVVM-C-DI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -499,6 +633,7 @@
 		};
 		DD7771352863B2E8000ED6D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8221AA71BFE8395C5B331D80 /* Pods-Viagens-MVVM-C-DITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +656,7 @@
 		};
 		DD7771362863B2E8000ED6D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6548FD370B75719FA95F9B4D /* Pods-Viagens-MVVM-C-DITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
