@@ -15,6 +15,10 @@
 		DD7771222863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771212863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift */; };
 		DD77713F2863B629000ED6D5 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77713E2863B629000ED6D5 /* UIColorExtension.swift */; };
 		DD7771422863B6B2000ED6D5 /* LibConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771412863B6B2000ED6D5 /* LibConstants.swift */; };
+		DD7771452863B77A000ED6D5 /* LibResolverProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771442863B77A000ED6D5 /* LibResolverProtocol.swift */; };
+		DD7771472863B799000ED6D5 /* LibConteinerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771462863B799000ED6D5 /* LibConteinerProtocol.swift */; };
+		DD7771492863B7B8000ED6D5 /* LibServiceLocatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771482863B7B8000ED6D5 /* LibServiceLocatorProtocol.swift */; };
+		DD77714B2863B7CF000ED6D5 /* LibServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77714A2863B7CF000ED6D5 /* LibServiceLocator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		DD7771232863B2E8000ED6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD77713E2863B629000ED6D5 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DD7771412863B6B2000ED6D5 /* LibConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibConstants.swift; sourceTree = "<group>"; };
+		DD7771442863B77A000ED6D5 /* LibResolverProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibResolverProtocol.swift; sourceTree = "<group>"; };
+		DD7771462863B799000ED6D5 /* LibConteinerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibConteinerProtocol.swift; sourceTree = "<group>"; };
+		DD7771482863B7B8000ED6D5 /* LibServiceLocatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibServiceLocatorProtocol.swift; sourceTree = "<group>"; };
+		DD77714A2863B7CF000ED6D5 /* LibServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibServiceLocator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 			children = (
 				DD7771402863B69A000ED6D5 /* LibConstants */,
 				DD77713D2863B609000ED6D5 /* LibExtension */,
+				DD7771432863B743000ED6D5 /* LibDependencyIncject */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -140,6 +149,17 @@
 				DD7771412863B6B2000ED6D5 /* LibConstants.swift */,
 			);
 			path = LibConstants;
+			sourceTree = "<group>";
+		};
+		DD7771432863B743000ED6D5 /* LibDependencyIncject */ = {
+			isa = PBXGroup;
+			children = (
+				DD7771442863B77A000ED6D5 /* LibResolverProtocol.swift */,
+				DD7771462863B799000ED6D5 /* LibConteinerProtocol.swift */,
+				DD7771482863B7B8000ED6D5 /* LibServiceLocatorProtocol.swift */,
+				DD77714A2863B7CF000ED6D5 /* LibServiceLocator.swift */,
+			);
+			path = LibDependencyIncject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,10 +261,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7771492863B7B8000ED6D5 /* LibServiceLocatorProtocol.swift in Sources */,
 				DD77710F2863B2E7000ED6D5 /* ViewController.swift in Sources */,
+				DD7771452863B77A000ED6D5 /* LibResolverProtocol.swift in Sources */,
+				DD77714B2863B7CF000ED6D5 /* LibServiceLocator.swift in Sources */,
 				DD77710B2863B2E7000ED6D5 /* AppDelegate.swift in Sources */,
 				DD77710D2863B2E7000ED6D5 /* SceneDelegate.swift in Sources */,
 				DD7771422863B6B2000ED6D5 /* LibConstants.swift in Sources */,
+				DD7771472863B799000ED6D5 /* LibConteinerProtocol.swift in Sources */,
 				DD77713F2863B629000ED6D5 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
