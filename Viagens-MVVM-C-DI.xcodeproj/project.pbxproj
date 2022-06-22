@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD77710B2863B2E7000ED6D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77710A2863B2E7000ED6D5 /* AppDelegate.swift */; };
+		DD77710D2863B2E7000ED6D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77710C2863B2E7000ED6D5 /* SceneDelegate.swift */; };
+		DD77710F2863B2E7000ED6D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77710E2863B2E7000ED6D5 /* ViewController.swift */; };
+		DD7771122863B2E7000ED6D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7771102863B2E7000ED6D5 /* Main.storyboard */; };
+		DD7771142863B2E8000ED6D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7771132863B2E8000ED6D5 /* Assets.xcassets */; };
+		DD7771172863B2E8000ED6D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7771152863B2E8000ED6D5 /* LaunchScreen.storyboard */; };
+		DD7771222863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771212863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift */; };
+		DD77712D2863B2E8000ED6D5 /* Viagens_MVVM_C_DIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77712C2863B2E8000ED6D5 /* Viagens_MVVM_C_DIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD77711E2863B2E8000ED6D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD7770FF2863B2E6000ED6D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7771062863B2E7000ED6D5;
+			remoteInfo = "Viagens-MVVM-C-DI";
+		};
+		DD7771292863B2E8000ED6D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD7770FF2863B2E6000ED6D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7771062863B2E7000ED6D5;
+			remoteInfo = "Viagens-MVVM-C-DI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD7771072863B2E7000ED6D5 /* Viagens-MVVM-C-DI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viagens-MVVM-C-DI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD77710A2863B2E7000ED6D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD77710C2863B2E7000ED6D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD77710E2863B2E7000ED6D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD7771112863B2E7000ED6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD7771132863B2E8000ED6D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD7771162863B2E8000ED6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD7771182863B2E8000ED6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD77711D2863B2E8000ED6D5 /* Viagens-MVVM-C-DITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viagens-MVVM-C-DITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7771212863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagens_MVVM_C_DITests.swift; sourceTree = "<group>"; };
+		DD7771232863B2E8000ED6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7771282863B2E8000ED6D5 /* Viagens-MVVM-C-DIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viagens-MVVM-C-DIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD77712C2863B2E8000ED6D5 /* Viagens_MVVM_C_DIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagens_MVVM_C_DIUITests.swift; sourceTree = "<group>"; };
+		DD77712E2863B2E8000ED6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD7771042863B2E7000ED6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD77711A2863B2E8000ED6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7771252863B2E8000ED6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD7770FE2863B2E6000ED6D5 = {
+			isa = PBXGroup;
+			children = (
+				DD7771092863B2E7000ED6D5 /* Viagens-MVVM-C-DI */,
+				DD7771202863B2E8000ED6D5 /* Viagens-MVVM-C-DITests */,
+				DD77712B2863B2E8000ED6D5 /* Viagens-MVVM-C-DIUITests */,
+				DD7771082863B2E7000ED6D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD7771082863B2E7000ED6D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD7771072863B2E7000ED6D5 /* Viagens-MVVM-C-DI.app */,
+				DD77711D2863B2E8000ED6D5 /* Viagens-MVVM-C-DITests.xctest */,
+				DD7771282863B2E8000ED6D5 /* Viagens-MVVM-C-DIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD7771092863B2E7000ED6D5 /* Viagens-MVVM-C-DI */ = {
+			isa = PBXGroup;
+			children = (
+				DD77710A2863B2E7000ED6D5 /* AppDelegate.swift */,
+				DD77710C2863B2E7000ED6D5 /* SceneDelegate.swift */,
+				DD77710E2863B2E7000ED6D5 /* ViewController.swift */,
+				DD7771102863B2E7000ED6D5 /* Main.storyboard */,
+				DD7771132863B2E8000ED6D5 /* Assets.xcassets */,
+				DD7771152863B2E8000ED6D5 /* LaunchScreen.storyboard */,
+				DD7771182863B2E8000ED6D5 /* Info.plist */,
+			);
+			path = "Viagens-MVVM-C-DI";
+			sourceTree = "<group>";
+		};
+		DD7771202863B2E8000ED6D5 /* Viagens-MVVM-C-DITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD7771212863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift */,
+				DD7771232863B2E8000ED6D5 /* Info.plist */,
+			);
+			path = "Viagens-MVVM-C-DITests";
+			sourceTree = "<group>";
+		};
+		DD77712B2863B2E8000ED6D5 /* Viagens-MVVM-C-DIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD77712C2863B2E8000ED6D5 /* Viagens_MVVM_C_DIUITests.swift */,
+				DD77712E2863B2E8000ED6D5 /* Info.plist */,
+			);
+			path = "Viagens-MVVM-C-DIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD7771062863B2E7000ED6D5 /* Viagens-MVVM-C-DI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7771312863B2E8000ED6D5 /* Build configuration list for PBXNativeTarget "Viagens-MVVM-C-DI" */;
+			buildPhases = (
+				DD7771032863B2E7000ED6D5 /* Sources */,
+				DD7771042863B2E7000ED6D5 /* Frameworks */,
+				DD7771052863B2E7000ED6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Viagens-MVVM-C-DI";
+			productName = "Viagens-MVVM-C-DI";
+			productReference = DD7771072863B2E7000ED6D5 /* Viagens-MVVM-C-DI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD77711C2863B2E8000ED6D5 /* Viagens-MVVM-C-DITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7771342863B2E8000ED6D5 /* Build configuration list for PBXNativeTarget "Viagens-MVVM-C-DITests" */;
+			buildPhases = (
+				DD7771192863B2E8000ED6D5 /* Sources */,
+				DD77711A2863B2E8000ED6D5 /* Frameworks */,
+				DD77711B2863B2E8000ED6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD77711F2863B2E8000ED6D5 /* PBXTargetDependency */,
+			);
+			name = "Viagens-MVVM-C-DITests";
+			productName = "Viagens-MVVM-C-DITests";
+			productReference = DD77711D2863B2E8000ED6D5 /* Viagens-MVVM-C-DITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD7771272863B2E8000ED6D5 /* Viagens-MVVM-C-DIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7771372863B2E8000ED6D5 /* Build configuration list for PBXNativeTarget "Viagens-MVVM-C-DIUITests" */;
+			buildPhases = (
+				DD7771242863B2E8000ED6D5 /* Sources */,
+				DD7771252863B2E8000ED6D5 /* Frameworks */,
+				DD7771262863B2E8000ED6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD77712A2863B2E8000ED6D5 /* PBXTargetDependency */,
+			);
+			name = "Viagens-MVVM-C-DIUITests";
+			productName = "Viagens-MVVM-C-DIUITests";
+			productReference = DD7771282863B2E8000ED6D5 /* Viagens-MVVM-C-DIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD7770FF2863B2E6000ED6D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DD7771062863B2E7000ED6D5 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					DD77711C2863B2E8000ED6D5 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DD7771062863B2E7000ED6D5;
+					};
+					DD7771272863B2E8000ED6D5 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DD7771062863B2E7000ED6D5;
+					};
+				};
+			};
+			buildConfigurationList = DD7771022863B2E6000ED6D5 /* Build configuration list for PBXProject "Viagens-MVVM-C-DI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD7770FE2863B2E6000ED6D5;
+			productRefGroup = DD7771082863B2E7000ED6D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD7771062863B2E7000ED6D5 /* Viagens-MVVM-C-DI */,
+				DD77711C2863B2E8000ED6D5 /* Viagens-MVVM-C-DITests */,
+				DD7771272863B2E8000ED6D5 /* Viagens-MVVM-C-DIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD7771052863B2E7000ED6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7771172863B2E8000ED6D5 /* LaunchScreen.storyboard in Resources */,
+				DD7771142863B2E8000ED6D5 /* Assets.xcassets in Resources */,
+				DD7771122863B2E7000ED6D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD77711B2863B2E8000ED6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7771262863B2E8000ED6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD7771032863B2E7000ED6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD77710F2863B2E7000ED6D5 /* ViewController.swift in Sources */,
+				DD77710B2863B2E7000ED6D5 /* AppDelegate.swift in Sources */,
+				DD77710D2863B2E7000ED6D5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7771192863B2E8000ED6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7771222863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7771242863B2E8000ED6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD77712D2863B2E8000ED6D5 /* Viagens_MVVM_C_DIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD77711F2863B2E8000ED6D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD7771062863B2E7000ED6D5 /* Viagens-MVVM-C-DI */;
+			targetProxy = DD77711E2863B2E8000ED6D5 /* PBXContainerItemProxy */;
+		};
+		DD77712A2863B2E8000ED6D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD7771062863B2E7000ED6D5 /* Viagens-MVVM-C-DI */;
+			targetProxy = DD7771292863B2E8000ED6D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD7771102863B2E7000ED6D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7771112863B2E7000ED6D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD7771152863B2E8000ED6D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7771162863B2E8000ED6D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD77712F2863B2E8000ED6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD7771302863B2E8000ED6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD7771322863B2E8000ED6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHZS489UFW;
+				INFOPLIST_FILE = "Viagens-MVVM-C-DI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wmc.Viagens-MVVM-C-DI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD7771332863B2E8000ED6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHZS489UFW;
+				INFOPLIST_FILE = "Viagens-MVVM-C-DI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wmc.Viagens-MVVM-C-DI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD7771352863B2E8000ED6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHZS489UFW;
+				INFOPLIST_FILE = "Viagens-MVVM-C-DITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wmc.Viagens-MVVM-C-DITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viagens-MVVM-C-DI.app/Viagens-MVVM-C-DI";
+			};
+			name = Debug;
+		};
+		DD7771362863B2E8000ED6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHZS489UFW;
+				INFOPLIST_FILE = "Viagens-MVVM-C-DITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wmc.Viagens-MVVM-C-DITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viagens-MVVM-C-DI.app/Viagens-MVVM-C-DI";
+			};
+			name = Release;
+		};
+		DD7771382863B2E8000ED6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHZS489UFW;
+				INFOPLIST_FILE = "Viagens-MVVM-C-DIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wmc.Viagens-MVVM-C-DIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Viagens-MVVM-C-DI";
+			};
+			name = Debug;
+		};
+		DD7771392863B2E8000ED6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHZS489UFW;
+				INFOPLIST_FILE = "Viagens-MVVM-C-DIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wmc.Viagens-MVVM-C-DIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Viagens-MVVM-C-DI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD7771022863B2E6000ED6D5 /* Build configuration list for PBXProject "Viagens-MVVM-C-DI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD77712F2863B2E8000ED6D5 /* Debug */,
+				DD7771302863B2E8000ED6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7771312863B2E8000ED6D5 /* Build configuration list for PBXNativeTarget "Viagens-MVVM-C-DI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7771322863B2E8000ED6D5 /* Debug */,
+				DD7771332863B2E8000ED6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7771342863B2E8000ED6D5 /* Build configuration list for PBXNativeTarget "Viagens-MVVM-C-DITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7771352863B2E8000ED6D5 /* Debug */,
+				DD7771362863B2E8000ED6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7771372863B2E8000ED6D5 /* Build configuration list for PBXNativeTarget "Viagens-MVVM-C-DIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7771382863B2E8000ED6D5 /* Debug */,
+				DD7771392863B2E8000ED6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD7770FF2863B2E6000ED6D5 /* Project object */;
+}
