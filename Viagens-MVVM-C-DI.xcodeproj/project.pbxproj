@@ -12,13 +12,17 @@
 		DD77710F2863B2E7000ED6D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77710E2863B2E7000ED6D5 /* ViewController.swift */; };
 		DD7771142863B2E8000ED6D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7771132863B2E8000ED6D5 /* Assets.xcassets */; };
 		DD7771172863B2E8000ED6D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7771152863B2E8000ED6D5 /* LaunchScreen.storyboard */; };
-		DD7771222863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771212863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift */; };
+		DD7771222863B2E8000ED6D5 /* LibServiceLocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771212863B2E8000ED6D5 /* LibServiceLocatorTests.swift */; };
 		DD77713F2863B629000ED6D5 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77713E2863B629000ED6D5 /* UIColorExtension.swift */; };
 		DD7771422863B6B2000ED6D5 /* LibConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771412863B6B2000ED6D5 /* LibConstants.swift */; };
 		DD7771452863B77A000ED6D5 /* LibResolverProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771442863B77A000ED6D5 /* LibResolverProtocol.swift */; };
 		DD7771472863B799000ED6D5 /* LibConteinerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771462863B799000ED6D5 /* LibConteinerProtocol.swift */; };
 		DD7771492863B7B8000ED6D5 /* LibServiceLocatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771482863B7B8000ED6D5 /* LibServiceLocatorProtocol.swift */; };
 		DD77714B2863B7CF000ED6D5 /* LibServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77714A2863B7CF000ED6D5 /* LibServiceLocator.swift */; };
+		DD77714F2863BB0F000ED6D5 /* ViewModelFakeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77714E2863BB0F000ED6D5 /* ViewModelFakeProtocol.swift */; };
+		DD7771512863BB29000ED6D5 /* ViewModelFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771502863BB29000ED6D5 /* ViewModelFake.swift */; };
+		DD7771532863BB47000ED6D5 /* ServiceFakeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771522863BB47000ED6D5 /* ServiceFakeProtocol.swift */; };
+		DD7771552863BB5A000ED6D5 /* ServiceFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771542863BB5A000ED6D5 /* ServiceFake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,7 @@
 		DD7771162863B2E8000ED6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD7771182863B2E8000ED6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD77711D2863B2E8000ED6D5 /* Viagens-MVVM-C-DITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viagens-MVVM-C-DITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD7771212863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagens_MVVM_C_DITests.swift; sourceTree = "<group>"; };
+		DD7771212863B2E8000ED6D5 /* LibServiceLocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibServiceLocatorTests.swift; sourceTree = "<group>"; };
 		DD7771232863B2E8000ED6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD77713E2863B629000ED6D5 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DD7771412863B6B2000ED6D5 /* LibConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibConstants.swift; sourceTree = "<group>"; };
@@ -48,6 +52,10 @@
 		DD7771462863B799000ED6D5 /* LibConteinerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibConteinerProtocol.swift; sourceTree = "<group>"; };
 		DD7771482863B7B8000ED6D5 /* LibServiceLocatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibServiceLocatorProtocol.swift; sourceTree = "<group>"; };
 		DD77714A2863B7CF000ED6D5 /* LibServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibServiceLocator.swift; sourceTree = "<group>"; };
+		DD77714E2863BB0F000ED6D5 /* ViewModelFakeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelFakeProtocol.swift; sourceTree = "<group>"; };
+		DD7771502863BB29000ED6D5 /* ViewModelFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelFake.swift; sourceTree = "<group>"; };
+		DD7771522863BB47000ED6D5 /* ServiceFakeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFakeProtocol.swift; sourceTree = "<group>"; };
+		DD7771542863BB5A000ED6D5 /* ServiceFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,7 @@
 		DD7771202863B2E8000ED6D5 /* Viagens-MVVM-C-DITests */ = {
 			isa = PBXGroup;
 			children = (
-				DD7771212863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift */,
+				DD7771562863BBE9000ED6D5 /* Lib */,
 				DD7771232863B2E8000ED6D5 /* Info.plist */,
 			);
 			path = "Viagens-MVVM-C-DITests";
@@ -160,6 +168,34 @@
 				DD77714A2863B7CF000ED6D5 /* LibServiceLocator.swift */,
 			);
 			path = LibDependencyIncject;
+			sourceTree = "<group>";
+		};
+		DD77714C2863BAE4000ED6D5 /* LibDependencyIncject */ = {
+			isa = PBXGroup;
+			children = (
+				DD7771212863B2E8000ED6D5 /* LibServiceLocatorTests.swift */,
+				DD77714D2863BAFC000ED6D5 /* Fake */,
+			);
+			path = LibDependencyIncject;
+			sourceTree = "<group>";
+		};
+		DD77714D2863BAFC000ED6D5 /* Fake */ = {
+			isa = PBXGroup;
+			children = (
+				DD77714E2863BB0F000ED6D5 /* ViewModelFakeProtocol.swift */,
+				DD7771502863BB29000ED6D5 /* ViewModelFake.swift */,
+				DD7771522863BB47000ED6D5 /* ServiceFakeProtocol.swift */,
+				DD7771542863BB5A000ED6D5 /* ServiceFake.swift */,
+			);
+			path = Fake;
+			sourceTree = "<group>";
+		};
+		DD7771562863BBE9000ED6D5 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				DD77714C2863BAE4000ED6D5 /* LibDependencyIncject */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD7771222863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift in Sources */,
+				DD7771222863B2E8000ED6D5 /* LibServiceLocatorTests.swift in Sources */,
+				DD77714F2863BB0F000ED6D5 /* ViewModelFakeProtocol.swift in Sources */,
+				DD7771552863BB5A000ED6D5 /* ServiceFake.swift in Sources */,
+				DD7771532863BB47000ED6D5 /* ServiceFakeProtocol.swift in Sources */,
+				DD7771512863BB29000ED6D5 /* ViewModelFake.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
