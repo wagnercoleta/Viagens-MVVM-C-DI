@@ -14,6 +14,7 @@
 		DD7771172863B2E8000ED6D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7771152863B2E8000ED6D5 /* LaunchScreen.storyboard */; };
 		DD7771222863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771212863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift */; };
 		DD77713F2863B629000ED6D5 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77713E2863B629000ED6D5 /* UIColorExtension.swift */; };
+		DD7771422863B6B2000ED6D5 /* LibConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771412863B6B2000ED6D5 /* LibConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		DD7771212863B2E8000ED6D5 /* Viagens_MVVM_C_DITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagens_MVVM_C_DITests.swift; sourceTree = "<group>"; };
 		DD7771232863B2E8000ED6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD77713E2863B629000ED6D5 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		DD7771412863B6B2000ED6D5 /* LibConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		DD77713C2863B5F7000ED6D5 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				DD7771402863B69A000ED6D5 /* LibConstants */,
 				DD77713D2863B609000ED6D5 /* LibExtension */,
 			);
 			path = Lib;
@@ -129,6 +132,14 @@
 				DD77713E2863B629000ED6D5 /* UIColorExtension.swift */,
 			);
 			path = LibExtension;
+			sourceTree = "<group>";
+		};
+		DD7771402863B69A000ED6D5 /* LibConstants */ = {
+			isa = PBXGroup;
+			children = (
+				DD7771412863B6B2000ED6D5 /* LibConstants.swift */,
+			);
+			path = LibConstants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 				DD77710F2863B2E7000ED6D5 /* ViewController.swift in Sources */,
 				DD77710B2863B2E7000ED6D5 /* AppDelegate.swift in Sources */,
 				DD77710D2863B2E7000ED6D5 /* SceneDelegate.swift in Sources */,
+				DD7771422863B6B2000ED6D5 /* LibConstants.swift in Sources */,
 				DD77713F2863B629000ED6D5 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
