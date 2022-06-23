@@ -62,6 +62,7 @@
 		DDBFDF5A28649AD100FD4451 /* ListViagemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF5928649AD100FD4451 /* ListViagemScreen.swift */; };
 		DDBFDF5C28649B3300FD4451 /* ListViagemViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF5B28649B3300FD4451 /* ListViagemViewControllerProtocol.swift */; };
 		DDBFDF5E28649B4B00FD4451 /* ListViagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF5D28649B4B00FD4451 /* ListViagemViewController.swift */; };
+		DDBFDF6028649CE900FD4451 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF5F28649CE900FD4451 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +137,7 @@
 		DDBFDF5928649AD100FD4451 /* ListViagemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemScreen.swift; sourceTree = "<group>"; };
 		DDBFDF5B28649B3300FD4451 /* ListViagemViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemViewControllerProtocol.swift; sourceTree = "<group>"; };
 		DDBFDF5D28649B4B00FD4451 /* ListViagemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemViewController.swift; sourceTree = "<group>"; };
+		DDBFDF5F28649CE900FD4451 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viagens_MVVM_C_DITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5996ED138B971A48F61C /* Pods-Viagens-MVVM-C-DI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DI.debug.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -394,6 +396,7 @@
 			isa = PBXGroup;
 			children = (
 				DDBFDF2428648BFC00FD4451 /* AppCoordinatorProtocol.swift */,
+				DDBFDF5F28649CE900FD4451 /* AppCoordinator.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -733,6 +736,7 @@
 				DDBFDF2B28648DB800FD4451 /* ViagemDTO.swift in Sources */,
 				DDBFDF2D28648E0400FD4451 /* Viagem.swift in Sources */,
 				DD77713F2863B629000ED6D5 /* UIColorExtension.swift in Sources */,
+				DDBFDF6028649CE900FD4451 /* AppCoordinator.swift in Sources */,
 				DDBFDF3428648F8F00FD4451 /* ImagemViagem.swift in Sources */,
 				DDBFDF2F28648E2F00FD4451 /* TypeViagemEnum.swift in Sources */,
 				DDBFDF522864982C00FD4451 /* ListViagemView.swift in Sources */,
