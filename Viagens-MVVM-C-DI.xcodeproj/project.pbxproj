@@ -49,6 +49,7 @@
 		DDBFDF3428648F8F00FD4451 /* ImagemViagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF3328648F8F00FD4451 /* ImagemViagem.swift */; };
 		DDBFDF37286490A300FD4451 /* ViagemServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF36286490A300FD4451 /* ViagemServiceProtocol.swift */; };
 		DDBFDF39286490C700FD4451 /* ViagemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF38286490C700FD4451 /* ViagemService.swift */; };
+		DDBFDF3E286491B100FD4451 /* ViagemServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF3D286491B100FD4451 /* ViagemServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		DDBFDF3328648F8F00FD4451 /* ImagemViagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagemViagem.swift; sourceTree = "<group>"; };
 		DDBFDF36286490A300FD4451 /* ViagemServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemServiceProtocol.swift; sourceTree = "<group>"; };
 		DDBFDF38286490C700FD4451 /* ViagemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemService.swift; sourceTree = "<group>"; };
+		DDBFDF3D286491B100FD4451 /* ViagemServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemServiceTests.swift; sourceTree = "<group>"; };
 		EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viagens_MVVM_C_DITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5996ED138B971A48F61C /* Pods-Viagens-MVVM-C-DI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DI.debug.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -190,6 +192,7 @@
 		DD7771202863B2E8000ED6D5 /* Viagens-MVVM-C-DITests */ = {
 			isa = PBXGroup;
 			children = (
+				DDBFDF3A2864918300FD4451 /* Scenes */,
 				DD7771642863C3A8000ED6D5 /* Helpers */,
 				DD7771562863BBE9000ED6D5 /* Lib */,
 				DD7771232863B2E8000ED6D5 /* Info.plist */,
@@ -406,6 +409,30 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		DDBFDF3A2864918300FD4451 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFDF3B2864919600FD4451 /* ListViagem */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		DDBFDF3B2864919600FD4451 /* ListViagem */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFDF3C2864919E00FD4451 /* Services */,
+			);
+			path = ListViagem;
+			sourceTree = "<group>";
+		};
+		DDBFDF3C2864919E00FD4451 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFDF3D286491B100FD4451 /* ViagemServiceTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -605,6 +632,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDBFDF3E286491B100FD4451 /* ViagemServiceTests.swift in Sources */,
 				DD7771742863C5FC000ED6D5 /* LibHttpClientProtocolMock.swift in Sources */,
 				DD7771662863C3B7000ED6D5 /* TestFactory.swift in Sources */,
 				DD7771222863B2E8000ED6D5 /* LibServiceLocatorTests.swift in Sources */,
