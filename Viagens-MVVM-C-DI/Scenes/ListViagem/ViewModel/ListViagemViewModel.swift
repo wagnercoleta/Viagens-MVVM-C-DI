@@ -12,6 +12,7 @@ final class ListViagemViewModel: BaseViewModel {
     
     private let _viagens: LibObservable<[Viagem]> = LibObservable([])
     private let viagemService: ViagemServiceProtocol
+    private var _lstViagens = [Viagem]()
     
     weak var delegateAlertView: LibAlertViewProtocol?
     
@@ -52,17 +53,22 @@ final class ListViagemViewModel: BaseViewModel {
         return lstViagens
     }
     
+    private func notifiesUpdateViagens(_ lstViagem: [Viagem]) {
+        self._viagens.value?.removeAll()
+        self._viagens.value?.append(contentsOf: self._lstViagens)
+    }
+    
     private func loadViagensInternal() {
         self.viagemService.fetchViagens { viagensDTO, error in
             if let error = error {
                 self.delegateAlertView?.showMessage(title: LibConstants.libTitleError, message: error.localizedDescription)
             } else if let viagensDTO = viagensDTO {
-                var lstViagens = self.getListViagens(viagensDTO: viagensDTO)
-                lstViagens.sort {
+                self._lstViagens = self.getListViagens(viagensDTO: viagensDTO)
+                self._lstViagens.sort {
                     $0.title < $1.title
                 }
-                self._viagens.value?.append(contentsOf: lstViagens)
-                self.loadImagemViagemInternal(viagens: lstViagens)
+                self.notifiesUpdateViagens(self._lstViagens)
+                self.loadImagemViagemInternal(viagens: self._lstViagens)
             }
         }
     }
@@ -95,12 +101,14 @@ final class ListViagemViewModel: BaseViewModel {
     }
     
     private func setImageViagem(with imagemViagem: ImagemViagem) {
-        let findViagemById = self._viagens.value?.first { viagem in
+        let findViagemById = self._lstViagens.first { viagem in
             return viagem.id == imagemViagem.idViagem
         }
         
         if (findViagemById != nil) {
             findViagemById?.Image = imagemViagem.imagem
+            
+            self.notifiesUpdateViagens(self._lstViagens)
         }
     }
 }

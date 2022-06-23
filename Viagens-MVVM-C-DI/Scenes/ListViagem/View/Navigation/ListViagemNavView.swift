@@ -39,7 +39,7 @@ class ListViagemNavView: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = Localizable.SHeaderNavListViagem
         label.textColor = .white
-        label.font = UIFont.systemFont(ofSize: 20, weight: .regular)
+        label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
         return label
     }()
     
@@ -48,7 +48,7 @@ class ListViagemNavView: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = Localizable.SSubHeaderNavListViagem
         label.textColor = .white
-        label.font = UIFont.systemFont(ofSize: 13, weight: .regular)
+        label.font = UIFont.systemFont(ofSize: 13, weight: .bold)
         return label
     }()
     
@@ -77,7 +77,7 @@ class ListViagemNavView: UIView {
             self.titleLabel.trailingAnchor.constraint(equalTo: self.navBar.trailingAnchor, constant: -Constants.spaceHeader),
             self.titleLabel.heightAnchor.constraint(equalToConstant: 30),
             
-            self.subTitleLabel.leadingAnchor.constraint(equalTo: self.titleLabel.leadingAnchor, constant: Constants.spaceHeader * 2),
+            self.subTitleLabel.leadingAnchor.constraint(equalTo: self.titleLabel.leadingAnchor, constant: Constants.spaceHeader * 3),
             self.subTitleLabel.topAnchor.constraint(equalTo: self.titleLabel.bottomAnchor, constant: Constants.spaceTitleLabel),
             self.subTitleLabel.trailingAnchor.constraint(equalTo: self.titleLabel.trailingAnchor, constant: -Constants.spaceHeader),
             self.subTitleLabel.heightAnchor.constraint(equalToConstant: 20)
