@@ -13,10 +13,61 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        self.registerDependency()
         return true
     }
 
+    private func registerDependency() {
+        let serviceLocator: LibServiceLocatorProtocol = LibServiceLocator.shared
+        
+        //--------- HttpClient ---------------------------------------------------
+        serviceLocator.register(instance: LibAlamofireAdapter.init(),
+                                forMetaType: LibHttpClientProtocol.self)
+        
+        //--------- Coordinator --------------------------------------------------
+        serviceLocator.register(instance: AppCoordinator(navigationController: UINavigationController.init()),
+                                forMetaType: AppCoordinatorProtocol.self)
+        
+        //--------- NetworkManager -----------------------------------------------
+        serviceLocator.register(
+            factory: { resolver in
+                let httpClient: LibHttpClientProtocol = resolver.autoResolve()
+                return LibNetworkManager(httpClient: httpClient)
+            },
+            forMetaType: LibNetworkManagerProtocol.self
+        )
+        
+        //--------- Services -----------------------------------------------------
+        serviceLocator.register(
+            factory: { resolver in
+                let libNetworkManager: LibNetworkManagerProtocol = resolver.autoResolve()
+                return ViagemService(networkManager: libNetworkManager)
+            },
+            forMetaType: ViagemServiceProtocol.self
+        )
+        
+        //--------- View Model ---------------------------------------------------
+        serviceLocator.register(
+            factory: { resolver in
+                let coordinator: AppCoordinatorProtocol = resolver.autoResolve()
+                let viagemService: ViagemServiceProtocol = resolver.autoResolve()
+                let viewModel = ListViagemViewModel(viagemService: viagemService)
+                viewModel.delegateCoordinator = coordinator
+                return viewModel
+            },
+            forMetaType: ListViagemViewModelProtocol.self
+        )
+        
+        //--------- View Controller ----------------------------------------------
+        serviceLocator.register(
+            factory: { resolver in
+                let viewModel: ListViagemViewModelProtocol = resolver.autoResolve()
+                return ListViagemViewController(viewModel: viewModel)
+            },
+            forMetaType: ListViagemViewControllerProtocol.self
+        )
+    }
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
