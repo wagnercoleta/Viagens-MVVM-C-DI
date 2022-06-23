@@ -42,6 +42,11 @@
 		DDBFDF2228648BB400FD4451 /* BaseViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF2128648BB400FD4451 /* BaseViewModelProtocol.swift */; };
 		DDBFDF2528648BFC00FD4451 /* AppCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF2428648BFC00FD4451 /* AppCoordinatorProtocol.swift */; };
 		DDBFDF2728648C3500FD4451 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF2628648C3500FD4451 /* BaseViewModel.swift */; };
+		DDBFDF2B28648DB800FD4451 /* ViagemDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF2A28648DB800FD4451 /* ViagemDTO.swift */; };
+		DDBFDF2D28648E0400FD4451 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF2C28648E0400FD4451 /* Viagem.swift */; };
+		DDBFDF2F28648E2F00FD4451 /* TypeViagemEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF2E28648E2F00FD4451 /* TypeViagemEnum.swift */; };
+		DDBFDF3228648E5700FD4451 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF3128648E5700FD4451 /* Constants.swift */; };
+		DDBFDF3428648F8F00FD4451 /* ImagemViagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF3328648F8F00FD4451 /* ImagemViagem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +101,11 @@
 		DDBFDF2128648BB400FD4451 /* BaseViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModelProtocol.swift; sourceTree = "<group>"; };
 		DDBFDF2428648BFC00FD4451 /* AppCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorProtocol.swift; sourceTree = "<group>"; };
 		DDBFDF2628648C3500FD4451 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		DDBFDF2A28648DB800FD4451 /* ViagemDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemDTO.swift; sourceTree = "<group>"; };
+		DDBFDF2C28648E0400FD4451 /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		DDBFDF2E28648E2F00FD4451 /* TypeViagemEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeViagemEnum.swift; sourceTree = "<group>"; };
+		DDBFDF3128648E5700FD4451 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DDBFDF3328648F8F00FD4451 /* ImagemViagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagemViagem.swift; sourceTree = "<group>"; };
 		EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viagens_MVVM_C_DITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5996ED138B971A48F61C /* Pods-Viagens-MVVM-C-DI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DI.debug.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -324,6 +334,8 @@
 			isa = PBXGroup;
 			children = (
 				DDBFDF1F28648B9A00FD4451 /* Base */,
+				DDBFDF3028648E4300FD4451 /* Constants */,
+				DDBFDF2828648D9A00FD4451 /* ListViagem */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -351,6 +363,33 @@
 				DDBFDF2428648BFC00FD4451 /* AppCoordinatorProtocol.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		DDBFDF2828648D9A00FD4451 /* ListViagem */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFDF2928648DAB00FD4451 /* Model */,
+			);
+			path = ListViagem;
+			sourceTree = "<group>";
+		};
+		DDBFDF2928648DAB00FD4451 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFDF2A28648DB800FD4451 /* ViagemDTO.swift */,
+				DDBFDF2E28648E2F00FD4451 /* TypeViagemEnum.swift */,
+				DDBFDF2C28648E0400FD4451 /* Viagem.swift */,
+				DDBFDF3328648F8F00FD4451 /* ImagemViagem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDBFDF3028648E4300FD4451 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFDF3128648E5700FD4451 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -525,6 +564,7 @@
 				DD77715F2863C1AB000ED6D5 /* LibAlamofireAdapter.swift in Sources */,
 				DD7771452863B77A000ED6D5 /* LibResolverProtocol.swift in Sources */,
 				DD77714B2863B7CF000ED6D5 /* LibServiceLocator.swift in Sources */,
+				DDBFDF3228648E5700FD4451 /* Constants.swift in Sources */,
 				DD77710B2863B2E7000ED6D5 /* AppDelegate.swift in Sources */,
 				DD77715D2863C166000ED6D5 /* LibHttpClientProtocol.swift in Sources */,
 				DD77715B2863C148000ED6D5 /* LibHttpClientGetProtocol.swift in Sources */,
@@ -537,7 +577,11 @@
 				DDBFDF2528648BFC00FD4451 /* AppCoordinatorProtocol.swift in Sources */,
 				DD7771632863C1FC000ED6D5 /* LibNetworkManager.swift in Sources */,
 				DD7771612863C1E8000ED6D5 /* LibNetworkManagerProtocol.swift in Sources */,
+				DDBFDF2B28648DB800FD4451 /* ViagemDTO.swift in Sources */,
+				DDBFDF2D28648E0400FD4451 /* Viagem.swift in Sources */,
 				DD77713F2863B629000ED6D5 /* UIColorExtension.swift in Sources */,
+				DDBFDF3428648F8F00FD4451 /* ImagemViagem.swift in Sources */,
+				DDBFDF2F28648E2F00FD4451 /* TypeViagemEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
