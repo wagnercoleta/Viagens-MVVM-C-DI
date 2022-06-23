@@ -50,6 +50,10 @@
 		DDBFDF37286490A300FD4451 /* ViagemServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF36286490A300FD4451 /* ViagemServiceProtocol.swift */; };
 		DDBFDF39286490C700FD4451 /* ViagemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF38286490C700FD4451 /* ViagemService.swift */; };
 		DDBFDF3E286491B100FD4451 /* ViagemServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF3D286491B100FD4451 /* ViagemServiceTests.swift */; };
+		DDBFDF412864930500FD4451 /* ListViagemViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF402864930500FD4451 /* ListViagemViewModelProtocol.swift */; };
+		DDBFDF442864936700FD4451 /* LibAlertViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF432864936700FD4451 /* LibAlertViewProtocol.swift */; };
+		DDBFDF462864939300FD4451 /* LibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF452864939300FD4451 /* LibViewController.swift */; };
+		DDBFDF48286493DB00FD4451 /* ListViagemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF47286493DB00FD4451 /* ListViagemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +116,10 @@
 		DDBFDF36286490A300FD4451 /* ViagemServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemServiceProtocol.swift; sourceTree = "<group>"; };
 		DDBFDF38286490C700FD4451 /* ViagemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemService.swift; sourceTree = "<group>"; };
 		DDBFDF3D286491B100FD4451 /* ViagemServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemServiceTests.swift; sourceTree = "<group>"; };
+		DDBFDF402864930500FD4451 /* ListViagemViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemViewModelProtocol.swift; sourceTree = "<group>"; };
+		DDBFDF432864936700FD4451 /* LibAlertViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibAlertViewProtocol.swift; sourceTree = "<group>"; };
+		DDBFDF452864939300FD4451 /* LibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibViewController.swift; sourceTree = "<group>"; };
+		DDBFDF47286493DB00FD4451 /* ListViagemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemViewModel.swift; sourceTree = "<group>"; };
 		EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viagens_MVVM_C_DITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5996ED138B971A48F61C /* Pods-Viagens-MVVM-C-DI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DI.debug.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -227,6 +235,7 @@
 				DD7771432863B743000ED6D5 /* LibDependencyIncject */,
 				DD7771572863BFDE000ED6D5 /* LibInfra */,
 				DDBFDF1B28648B3300FD4451 /* LibViewModel */,
+				DDBFDF422864933A00FD4451 /* LibView */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -375,8 +384,9 @@
 		DDBFDF2828648D9A00FD4451 /* ListViagem */ = {
 			isa = PBXGroup;
 			children = (
-				DDBFDF352864908900FD4451 /* Services */,
 				DDBFDF2928648DAB00FD4451 /* Model */,
+				DDBFDF352864908900FD4451 /* Services */,
+				DDBFDF3F286492EC00FD4451 /* ViewModel */,
 			);
 			path = ListViagem;
 			sourceTree = "<group>";
@@ -431,6 +441,24 @@
 				DDBFDF3D286491B100FD4451 /* ViagemServiceTests.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		DDBFDF3F286492EC00FD4451 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFDF402864930500FD4451 /* ListViagemViewModelProtocol.swift */,
+				DDBFDF47286493DB00FD4451 /* ListViagemViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDBFDF422864933A00FD4451 /* LibView */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFDF432864936700FD4451 /* LibAlertViewProtocol.swift */,
+				DDBFDF452864939300FD4451 /* LibViewController.swift */,
+			);
+			path = LibView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -604,6 +632,7 @@
 				DD7771592863C00B000ED6D5 /* LibHttpError.swift in Sources */,
 				DD77715F2863C1AB000ED6D5 /* LibAlamofireAdapter.swift in Sources */,
 				DD7771452863B77A000ED6D5 /* LibResolverProtocol.swift in Sources */,
+				DDBFDF412864930500FD4451 /* ListViagemViewModelProtocol.swift in Sources */,
 				DD77714B2863B7CF000ED6D5 /* LibServiceLocator.swift in Sources */,
 				DDBFDF3228648E5700FD4451 /* Constants.swift in Sources */,
 				DD77710B2863B2E7000ED6D5 /* AppDelegate.swift in Sources */,
@@ -611,8 +640,11 @@
 				DD77715B2863C148000ED6D5 /* LibHttpClientGetProtocol.swift in Sources */,
 				DD77710D2863B2E7000ED6D5 /* SceneDelegate.swift in Sources */,
 				DDBFDF1D28648B6100FD4451 /* LibObservable.swift in Sources */,
+				DDBFDF442864936700FD4451 /* LibAlertViewProtocol.swift in Sources */,
 				DD7771422863B6B2000ED6D5 /* LibConstants.swift in Sources */,
+				DDBFDF48286493DB00FD4451 /* ListViagemViewModel.swift in Sources */,
 				DDBFDF2228648BB400FD4451 /* BaseViewModelProtocol.swift in Sources */,
+				DDBFDF462864939300FD4451 /* LibViewController.swift in Sources */,
 				DD7771472863B799000ED6D5 /* LibConteinerProtocol.swift in Sources */,
 				DDBFDF2728648C3500FD4451 /* BaseViewModel.swift in Sources */,
 				DDBFDF2528648BFC00FD4451 /* AppCoordinatorProtocol.swift in Sources */,
