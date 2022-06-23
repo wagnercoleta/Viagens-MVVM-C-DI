@@ -62,6 +62,8 @@
 		DDBFDF5C28649B3300FD4451 /* ListViagemViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF5B28649B3300FD4451 /* ListViagemViewControllerProtocol.swift */; };
 		DDBFDF5E28649B4B00FD4451 /* ListViagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF5D28649B4B00FD4451 /* ListViagemViewController.swift */; };
 		DDBFDF6028649CE900FD4451 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF5F28649CE900FD4451 /* AppCoordinator.swift */; };
+		DDBFDF652864B0C600FD4451 /* ViagemViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF642864B0C600FD4451 /* ViagemViewModelProtocol.swift */; };
+		DDBFDF672864B0DF00FD4451 /* ViagemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF662864B0DF00FD4451 /* ViagemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +138,8 @@
 		DDBFDF5B28649B3300FD4451 /* ListViagemViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemViewControllerProtocol.swift; sourceTree = "<group>"; };
 		DDBFDF5D28649B4B00FD4451 /* ListViagemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemViewController.swift; sourceTree = "<group>"; };
 		DDBFDF5F28649CE900FD4451 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		DDBFDF642864B0C600FD4451 /* ViagemViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemViewModelProtocol.swift; sourceTree = "<group>"; };
+		DDBFDF662864B0DF00FD4451 /* ViagemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemViewModel.swift; sourceTree = "<group>"; };
 		EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viagens_MVVM_C_DITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5996ED138B971A48F61C /* Pods-Viagens-MVVM-C-DI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DI.debug.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -367,6 +371,7 @@
 				DDBFDF1F28648B9A00FD4451 /* Base */,
 				DDBFDF3028648E4300FD4451 /* Constants */,
 				DDBFDF2828648D9A00FD4451 /* ListViagem */,
+				DDBFDF622864B09100FD4451 /* Viagem */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -531,6 +536,23 @@
 				DDBFDF57286499F000FD4451 /* ListViagemCollectionViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		DDBFDF622864B09100FD4451 /* Viagem */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFDF632864B0B100FD4451 /* ViewModel */,
+			);
+			path = Viagem;
+			sourceTree = "<group>";
+		};
+		DDBFDF632864B0B100FD4451 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFDF642864B0C600FD4451 /* ViagemViewModelProtocol.swift */,
+				DDBFDF662864B0DF00FD4451 /* ViagemViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -716,6 +738,8 @@
 				DD77715D2863C166000ED6D5 /* LibHttpClientProtocol.swift in Sources */,
 				DD77715B2863C148000ED6D5 /* LibHttpClientGetProtocol.swift in Sources */,
 				DD77710D2863B2E7000ED6D5 /* SceneDelegate.swift in Sources */,
+				DDBFDF652864B0C600FD4451 /* ViagemViewModelProtocol.swift in Sources */,
+				DDBFDF672864B0DF00FD4451 /* ViagemViewModel.swift in Sources */,
 				DDBFDF1D28648B6100FD4451 /* LibObservable.swift in Sources */,
 				DDBFDF442864936700FD4451 /* LibAlertViewProtocol.swift in Sources */,
 				DD7771422863B6B2000ED6D5 /* LibConstants.swift in Sources */,
