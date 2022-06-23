@@ -58,6 +58,7 @@
 		DDBFDF4F286496C000FD4451 /* ListViagemNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF4E286496C000FD4451 /* ListViagemNavView.swift */; };
 		DDBFDF522864982C00FD4451 /* ListViagemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF512864982C00FD4451 /* ListViagemView.swift */; };
 		DDBFDF55286498B800FD4451 /* PriceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF54286498B800FD4451 /* PriceHelper.swift */; };
+		DDBFDF58286499F000FD4451 /* ListViagemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF57286499F000FD4451 /* ListViagemCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		DDBFDF4E286496C000FD4451 /* ListViagemNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemNavView.swift; sourceTree = "<group>"; };
 		DDBFDF512864982C00FD4451 /* ListViagemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemView.swift; sourceTree = "<group>"; };
 		DDBFDF54286498B800FD4451 /* PriceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceHelper.swift; sourceTree = "<group>"; };
+		DDBFDF57286499F000FD4451 /* ListViagemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemCollectionViewCell.swift; sourceTree = "<group>"; };
 		EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viagens_MVVM_C_DITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5996ED138B971A48F61C /* Pods-Viagens-MVVM-C-DI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DI.debug.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -485,6 +487,7 @@
 			children = (
 				DDBFDF4D2864968E00FD4451 /* Navigation */,
 				DDBFDF502864980500FD4451 /* ViewCell */,
+				DDBFDF56286499DB00FD4451 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -511,6 +514,14 @@
 				DDBFDF54286498B800FD4451 /* PriceHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DDBFDF56286499DB00FD4451 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFDF57286499F000FD4451 /* ListViagemCollectionViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -684,6 +695,7 @@
 				DD7771592863C00B000ED6D5 /* LibHttpError.swift in Sources */,
 				DD77715F2863C1AB000ED6D5 /* LibAlamofireAdapter.swift in Sources */,
 				DDBFDF4F286496C000FD4451 /* ListViagemNavView.swift in Sources */,
+				DDBFDF58286499F000FD4451 /* ListViagemCollectionViewCell.swift in Sources */,
 				DD7771452863B77A000ED6D5 /* LibResolverProtocol.swift in Sources */,
 				DDBFDF412864930500FD4451 /* ListViagemViewModelProtocol.swift in Sources */,
 				DD77714B2863B7CF000ED6D5 /* LibServiceLocator.swift in Sources */,
