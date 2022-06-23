@@ -11,7 +11,6 @@
 		5F54791AE211201C7D99EAA8 /* Pods_Viagens_MVVM_C_DITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */; };
 		DD77710B2863B2E7000ED6D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77710A2863B2E7000ED6D5 /* AppDelegate.swift */; };
 		DD77710D2863B2E7000ED6D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77710C2863B2E7000ED6D5 /* SceneDelegate.swift */; };
-		DD77710F2863B2E7000ED6D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77710E2863B2E7000ED6D5 /* ViewController.swift */; };
 		DD7771142863B2E8000ED6D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7771132863B2E8000ED6D5 /* Assets.xcassets */; };
 		DD7771172863B2E8000ED6D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7771152863B2E8000ED6D5 /* LaunchScreen.storyboard */; };
 		DD7771222863B2E8000ED6D5 /* LibServiceLocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7771212863B2E8000ED6D5 /* LibServiceLocatorTests.swift */; };
@@ -83,7 +82,6 @@
 		DD7771072863B2E7000ED6D5 /* Viagens-MVVM-C-DI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viagens-MVVM-C-DI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD77710A2863B2E7000ED6D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD77710C2863B2E7000ED6D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD77710E2863B2E7000ED6D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD7771132863B2E8000ED6D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD7771162863B2E8000ED6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD7771182863B2E8000ED6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -210,7 +208,6 @@
 				DD77713B2863B4F1000ED6D5 /* Application */,
 				DD77713A2863B4E0000ED6D5 /* Resources */,
 				DD7771182863B2E8000ED6D5 /* Info.plist */,
-				DD77710E2863B2E7000ED6D5 /* ViewController.swift */,
 			);
 			path = "Viagens-MVVM-C-DI";
 			sourceTree = "<group>";
@@ -703,7 +700,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD7771492863B7B8000ED6D5 /* LibServiceLocatorProtocol.swift in Sources */,
-				DD77710F2863B2E7000ED6D5 /* ViewController.swift in Sources */,
 				DD7771592863C00B000ED6D5 /* LibHttpError.swift in Sources */,
 				DDBFDF5E28649B4B00FD4451 /* ListViagemViewController.swift in Sources */,
 				DDBFDF5C28649B3300FD4451 /* ListViagemViewControllerProtocol.swift in Sources */,
