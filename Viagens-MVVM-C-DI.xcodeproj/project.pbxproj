@@ -67,6 +67,7 @@
 		DDBFDF6A2864B1CA00FD4451 /* ViagemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF692864B1CA00FD4451 /* ViagemScreen.swift */; };
 		DDBFDF6C2864B22900FD4451 /* ViagemViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF6B2864B22900FD4451 /* ViagemViewControllerProtocol.swift */; };
 		DDBFDF6E2864B24D00FD4451 /* ViagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF6D2864B24D00FD4451 /* ViagemViewController.swift */; };
+		DDBFDF702864C44C00FD4451 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DDBFDF6F2864C44C00FD4451 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +147,7 @@
 		DDBFDF692864B1CA00FD4451 /* ViagemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemScreen.swift; sourceTree = "<group>"; };
 		DDBFDF6B2864B22900FD4451 /* ViagemViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemViewControllerProtocol.swift; sourceTree = "<group>"; };
 		DDBFDF6D2864B24D00FD4451 /* ViagemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemViewController.swift; sourceTree = "<group>"; };
+		DDBFDF6F2864C44C00FD4451 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viagens_MVVM_C_DITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5996ED138B971A48F61C /* Pods-Viagens-MVVM-C-DI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DI.debug.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,6 +195,7 @@
 		DD7770FE2863B2E6000ED6D5 = {
 			isa = PBXGroup;
 			children = (
+				DDBFDF6F2864C44C00FD4451 /* README.md */,
 				DD7771092863B2E7000ED6D5 /* Viagens-MVVM-C-DI */,
 				DD7771202863B2E8000ED6D5 /* Viagens-MVVM-C-DITests */,
 				DD7771082863B2E7000ED6D5 /* Products */,
@@ -655,6 +658,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDBFDF702864C44C00FD4451 /* README.md in Resources */,
 				DD7771172863B2E8000ED6D5 /* LaunchScreen.storyboard in Resources */,
 				DD7771142863B2E8000ED6D5 /* Assets.xcassets in Resources */,
 			);
