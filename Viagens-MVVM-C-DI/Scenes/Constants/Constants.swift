@@ -19,3 +19,8 @@ struct CustomColor {
     static let secundary = UIColor(hex: "#F9F2ED")
     static let appText: UIColor = .darkGray
 }
+
+struct CustomTextLabel {
+    static let parceladoEmXVezes = NSLocalizedString("em até", comment: "")
+    static let comDesconto = NSLocalizedString("com desconto", comment: "")
+}
