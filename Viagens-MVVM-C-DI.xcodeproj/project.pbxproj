@@ -64,6 +64,9 @@
 		DDBFDF6028649CE900FD4451 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF5F28649CE900FD4451 /* AppCoordinator.swift */; };
 		DDBFDF652864B0C600FD4451 /* ViagemViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF642864B0C600FD4451 /* ViagemViewModelProtocol.swift */; };
 		DDBFDF672864B0DF00FD4451 /* ViagemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF662864B0DF00FD4451 /* ViagemViewModel.swift */; };
+		DDBFDF6A2864B1CA00FD4451 /* ViagemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF692864B1CA00FD4451 /* ViagemScreen.swift */; };
+		DDBFDF6C2864B22900FD4451 /* ViagemViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF6B2864B22900FD4451 /* ViagemViewControllerProtocol.swift */; };
+		DDBFDF6E2864B24D00FD4451 /* ViagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF6D2864B24D00FD4451 /* ViagemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +143,9 @@
 		DDBFDF5F28649CE900FD4451 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		DDBFDF642864B0C600FD4451 /* ViagemViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemViewModelProtocol.swift; sourceTree = "<group>"; };
 		DDBFDF662864B0DF00FD4451 /* ViagemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemViewModel.swift; sourceTree = "<group>"; };
+		DDBFDF692864B1CA00FD4451 /* ViagemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemScreen.swift; sourceTree = "<group>"; };
+		DDBFDF6B2864B22900FD4451 /* ViagemViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemViewControllerProtocol.swift; sourceTree = "<group>"; };
+		DDBFDF6D2864B24D00FD4451 /* ViagemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemViewController.swift; sourceTree = "<group>"; };
 		EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viagens_MVVM_C_DITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5996ED138B971A48F61C /* Pods-Viagens-MVVM-C-DI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DI.debug.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -542,6 +548,7 @@
 			isa = PBXGroup;
 			children = (
 				DDBFDF632864B0B100FD4451 /* ViewModel */,
+				DDBFDF682864B14E00FD4451 /* View */,
 			);
 			path = Viagem;
 			sourceTree = "<group>";
@@ -553,6 +560,16 @@
 				DDBFDF662864B0DF00FD4451 /* ViagemViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDBFDF682864B14E00FD4451 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFDF692864B1CA00FD4451 /* ViagemScreen.swift */,
+				DDBFDF6B2864B22900FD4451 /* ViagemViewControllerProtocol.swift */,
+				DDBFDF6D2864B24D00FD4451 /* ViagemViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -732,6 +749,7 @@
 				DDBFDF412864930500FD4451 /* ListViagemViewModelProtocol.swift in Sources */,
 				DD77714B2863B7CF000ED6D5 /* LibServiceLocator.swift in Sources */,
 				DDBFDF3228648E5700FD4451 /* Constants.swift in Sources */,
+				DDBFDF6E2864B24D00FD4451 /* ViagemViewController.swift in Sources */,
 				DD77710B2863B2E7000ED6D5 /* AppDelegate.swift in Sources */,
 				DDBFDF55286498B800FD4451 /* PriceHelper.swift in Sources */,
 				DDBFDF5A28649AD100FD4451 /* ListViagemScreen.swift in Sources */,
@@ -751,6 +769,8 @@
 				DDBFDF2528648BFC00FD4451 /* AppCoordinatorProtocol.swift in Sources */,
 				DDBFDF37286490A300FD4451 /* ViagemServiceProtocol.swift in Sources */,
 				DD7771632863C1FC000ED6D5 /* LibNetworkManager.swift in Sources */,
+				DDBFDF6C2864B22900FD4451 /* ViagemViewControllerProtocol.swift in Sources */,
+				DDBFDF6A2864B1CA00FD4451 /* ViagemScreen.swift in Sources */,
 				DD7771612863C1E8000ED6D5 /* LibNetworkManagerProtocol.swift in Sources */,
 				DDBFDF39286490C700FD4451 /* ViagemService.swift in Sources */,
 				DDBFDF2B28648DB800FD4451 /* ViagemDTO.swift in Sources */,

@@ -15,4 +15,7 @@ protocol AppCoordinatorProtocol: AnyObject {
     var navigationController: UINavigationController { get set }
     
     func start()
+    
+    func goToListViagem()
+    func goToViagem(_ viagem: Viagem)
 }

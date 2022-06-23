@@ -73,8 +73,8 @@ extension ListViagemViewController: UICollectionViewDelegate, UICollectionViewDa
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        let viagem = self.viagens[indexPath.row]
-//        self.viewModel.delegateCoordinator?.goToViagem(viagem)
+        let viagem = self.viagens[indexPath.row]
+        self.viewModel.delegateCoordinator?.goToViagem(viagem)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

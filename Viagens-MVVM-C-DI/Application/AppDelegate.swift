@@ -57,6 +57,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             },
             forMetaType: ListViagemViewModelProtocol.self
         )
+        serviceLocator.register(instance: ViagemViewModel.init(),
+                                forMetaType: ViagemViewModelProtocol.self)
         
         //--------- View Controller ----------------------------------------------
         serviceLocator.register(
@@ -65,6 +67,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 return ListViagemViewController(viewModel: viewModel)
             },
             forMetaType: ListViagemViewControllerProtocol.self
+        )
+        serviceLocator.register(
+            factory: { resolver in
+                let viewModel: ViagemViewModelProtocol = resolver.autoResolve()
+                return ViagemViewController(viewModel: viewModel)
+            },
+            forMetaType: ViagemViewControllerProtocol.self
         )
     }
     
