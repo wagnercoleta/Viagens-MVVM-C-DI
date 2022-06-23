@@ -59,6 +59,7 @@
 		DDBFDF522864982C00FD4451 /* ListViagemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF512864982C00FD4451 /* ListViagemView.swift */; };
 		DDBFDF55286498B800FD4451 /* PriceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF54286498B800FD4451 /* PriceHelper.swift */; };
 		DDBFDF58286499F000FD4451 /* ListViagemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF57286499F000FD4451 /* ListViagemCollectionViewCell.swift */; };
+		DDBFDF5A28649AD100FD4451 /* ListViagemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF5928649AD100FD4451 /* ListViagemScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +131,7 @@
 		DDBFDF512864982C00FD4451 /* ListViagemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemView.swift; sourceTree = "<group>"; };
 		DDBFDF54286498B800FD4451 /* PriceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceHelper.swift; sourceTree = "<group>"; };
 		DDBFDF57286499F000FD4451 /* ListViagemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemCollectionViewCell.swift; sourceTree = "<group>"; };
+		DDBFDF5928649AD100FD4451 /* ListViagemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemScreen.swift; sourceTree = "<group>"; };
 		EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viagens_MVVM_C_DITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5996ED138B971A48F61C /* Pods-Viagens-MVVM-C-DI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DI.debug.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -488,6 +490,7 @@
 				DDBFDF4D2864968E00FD4451 /* Navigation */,
 				DDBFDF502864980500FD4451 /* ViewCell */,
 				DDBFDF56286499DB00FD4451 /* Cell */,
+				DDBFDF5928649AD100FD4451 /* ListViagemScreen.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -702,6 +705,7 @@
 				DDBFDF3228648E5700FD4451 /* Constants.swift in Sources */,
 				DD77710B2863B2E7000ED6D5 /* AppDelegate.swift in Sources */,
 				DDBFDF55286498B800FD4451 /* PriceHelper.swift in Sources */,
+				DDBFDF5A28649AD100FD4451 /* ListViagemScreen.swift in Sources */,
 				DD77715D2863C166000ED6D5 /* LibHttpClientProtocol.swift in Sources */,
 				DD77715B2863C148000ED6D5 /* LibHttpClientGetProtocol.swift in Sources */,
 				DD77710D2863B2E7000ED6D5 /* SceneDelegate.swift in Sources */,
