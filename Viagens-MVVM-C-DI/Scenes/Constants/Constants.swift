@@ -11,7 +11,8 @@ struct Localizable {
     static let SNacional = NSLocalizedString("Nacional", comment: "")
     static let SInternacional = NSLocalizedString("Internacional", comment: "")
     
-    static let SHeaderNavListViagem = NSLocalizedString("Viagens - Nacionais & Internacionais", comment: "")
+    static let SHeaderNavListViagem = NSLocalizedString("Viagens", comment: "")
+    static let SSubHeaderNavListViagem = NSLocalizedString("Nacionais & Internacionais", comment: "")
 }
 
 struct CustomColor {

@@ -50,7 +50,7 @@ class ListViagemScreen: UIView {
             self.navView.topAnchor.constraint(equalTo: self.topAnchor),
             self.navView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             self.navView.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-            self.navView.heightAnchor.constraint(equalToConstant: 140),
+            self.navView.heightAnchor.constraint(equalToConstant: 100),
             
             self.collectionView.topAnchor.constraint(equalTo: self.navView.bottomAnchor),
             self.collectionView.leadingAnchor.constraint(equalTo: self.leadingAnchor),

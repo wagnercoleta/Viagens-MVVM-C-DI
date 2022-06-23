@@ -10,9 +10,8 @@ import UIKit
 class ListViagemNavView: UIView {
 
     private struct Constants {
-        static let titleHeader = NSLocalizedString(Localizable.SHeaderNavListViagem, comment: "")
-        static let spaceHeader: CGFloat = 20.0
-        static let spaceTitleLabel: CGFloat = 10.0
+        static let spaceHeader: CGFloat = 15.0
+        static let spaceTitleLabel: CGFloat = 7.0
     }
     
     private lazy var navBackGroundView: UIView = {
@@ -35,28 +34,29 @@ class ListViagemNavView: UIView {
         return view
     }()
     
-    private lazy var headerBar: UIView = {
-        let view = UIView()
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = CustomColor.secundary
-        view.clipsToBounds = true
-        view.layer.cornerRadius = 10
-        return view
-    }()
-    
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = Constants.titleHeader
-        label.textColor = CustomColor.appText
+        label.text = Localizable.SHeaderNavListViagem
+        label.textColor = .white
+        label.font = UIFont.systemFont(ofSize: 20, weight: .regular)
+        return label
+    }()
+    
+    private lazy var subTitleLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = Localizable.SSubHeaderNavListViagem
+        label.textColor = .white
+        label.font = UIFont.systemFont(ofSize: 13, weight: .regular)
         return label
     }()
     
     private func addElemented() {
         self.addSubview(self.navBackGroundView)
         self.navBackGroundView.addSubview(self.navBar)
-        self.navBar.addSubview(self.headerBar)
         self.navBar.addSubview(self.titleLabel)
+        self.navBar.addSubview(self.subTitleLabel)
     }
     
     private func setupConstraint() {
@@ -71,14 +71,16 @@ class ListViagemNavView: UIView {
             self.navBar.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             self.navBar.trailingAnchor.constraint(equalTo: self.trailingAnchor),
             self.navBar.bottomAnchor.constraint(equalTo: self.bottomAnchor),
+
+            self.titleLabel.leadingAnchor.constraint(equalTo: self.navBar.leadingAnchor, constant: Constants.spaceHeader),
+            self.titleLabel.topAnchor.constraint(equalTo: self.navBar.topAnchor, constant: Constants.spaceHeader),
+            self.titleLabel.trailingAnchor.constraint(equalTo: self.navBar.trailingAnchor, constant: -Constants.spaceHeader),
+            self.titleLabel.heightAnchor.constraint(equalToConstant: 30),
             
-            self.headerBar.leadingAnchor.constraint(equalTo: self.navBar.leadingAnchor, constant: Constants.spaceHeader),
-            self.headerBar.centerYAnchor.constraint(equalTo: self.navBar.centerYAnchor),
-            self.headerBar.trailingAnchor.constraint(equalTo: self.navBar.trailingAnchor, constant: -Constants.spaceHeader),
-            self.headerBar.heightAnchor.constraint(equalToConstant: 45),
-            
-            self.titleLabel.centerYAnchor.constraint(equalTo: self.headerBar.centerYAnchor),
-            self.titleLabel.centerXAnchor.constraint(equalTo: self.headerBar.centerXAnchor)
+            self.subTitleLabel.leadingAnchor.constraint(equalTo: self.titleLabel.leadingAnchor, constant: Constants.spaceHeader * 2),
+            self.subTitleLabel.topAnchor.constraint(equalTo: self.titleLabel.bottomAnchor, constant: Constants.spaceTitleLabel),
+            self.subTitleLabel.trailingAnchor.constraint(equalTo: self.titleLabel.trailingAnchor, constant: -Constants.spaceHeader),
+            self.subTitleLabel.heightAnchor.constraint(equalToConstant: 20)
             
         ])
     }
