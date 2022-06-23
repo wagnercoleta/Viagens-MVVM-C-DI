@@ -54,6 +54,7 @@
 		DDBFDF442864936700FD4451 /* LibAlertViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF432864936700FD4451 /* LibAlertViewProtocol.swift */; };
 		DDBFDF462864939300FD4451 /* LibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF452864939300FD4451 /* LibViewController.swift */; };
 		DDBFDF48286493DB00FD4451 /* ListViagemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF47286493DB00FD4451 /* ListViagemViewModel.swift */; };
+		DDBFDF4B2864952000FD4451 /* ListViagemViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFDF4A2864952000FD4451 /* ListViagemViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		DDBFDF432864936700FD4451 /* LibAlertViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibAlertViewProtocol.swift; sourceTree = "<group>"; };
 		DDBFDF452864939300FD4451 /* LibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibViewController.swift; sourceTree = "<group>"; };
 		DDBFDF47286493DB00FD4451 /* ListViagemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemViewModel.swift; sourceTree = "<group>"; };
+		DDBFDF4A2864952000FD4451 /* ListViagemViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViagemViewModelTests.swift; sourceTree = "<group>"; };
 		EE67C59E8249ECA6F7C9F88D /* Pods_Viagens_MVVM_C_DITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viagens_MVVM_C_DITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5996ED138B971A48F61C /* Pods-Viagens-MVVM-C-DI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viagens-MVVM-C-DI.debug.xcconfig"; path = "Target Support Files/Pods-Viagens-MVVM-C-DI/Pods-Viagens-MVVM-C-DI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -431,6 +433,7 @@
 			isa = PBXGroup;
 			children = (
 				DDBFDF3C2864919E00FD4451 /* Services */,
+				DDBFDF492864950900FD4451 /* ViewModel */,
 			);
 			path = ListViagem;
 			sourceTree = "<group>";
@@ -459,6 +462,14 @@
 				DDBFDF452864939300FD4451 /* LibViewController.swift */,
 			);
 			path = LibView;
+			sourceTree = "<group>";
+		};
+		DDBFDF492864950900FD4451 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFDF4A2864952000FD4451 /* ListViagemViewModelTests.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -665,6 +676,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDBFDF3E286491B100FD4451 /* ViagemServiceTests.swift in Sources */,
+				DDBFDF4B2864952000FD4451 /* ListViagemViewModelTests.swift in Sources */,
 				DD7771742863C5FC000ED6D5 /* LibHttpClientProtocolMock.swift in Sources */,
 				DD7771662863C3B7000ED6D5 /* TestFactory.swift in Sources */,
 				DD7771222863B2E8000ED6D5 /* LibServiceLocatorTests.swift in Sources */,
