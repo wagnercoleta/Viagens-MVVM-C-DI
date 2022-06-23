@@ -10,7 +10,7 @@ import UIKit
 class ListViagemNavView: UIView {
 
     private struct Constants {
-        static let spaceHeader: CGFloat = 15.0
+        static let spaceHeader: CGFloat = 10.0
         static let spaceTitleLabel: CGFloat = 7.0
     }
     
@@ -39,7 +39,7 @@ class ListViagemNavView: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = Localizable.SHeaderNavListViagem
         label.textColor = .white
-        label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+        label.font = UIFont.systemFont(ofSize: 22, weight: .bold)
         return label
     }()
     

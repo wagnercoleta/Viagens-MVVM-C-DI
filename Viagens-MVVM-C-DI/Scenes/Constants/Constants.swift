@@ -16,7 +16,7 @@ struct Localizable {
 }
 
 struct CustomColor {
-    static let primary = UIColor(hex: "#3AB0FF")
+    static let primary = UIColor(hex: "#F58300")
     static let secundary = UIColor(hex: "#F9F2ED")
     static let appText: UIColor = .darkGray
 }

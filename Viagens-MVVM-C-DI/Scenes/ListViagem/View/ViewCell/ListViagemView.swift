@@ -86,7 +86,7 @@ class ListViagemView: UIView {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 12, weight: .regular)
-        label.textColor = .systemOrange
+        label.textColor = CustomColor.primary
         label.numberOfLines = 1
         return label
     }()
