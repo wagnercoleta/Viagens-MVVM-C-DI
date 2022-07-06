@@ -22,10 +22,10 @@ class ListViagemCollectionViewCell: UICollectionViewCell {
     private func setupConstraint() {
         NSLayoutConstraint.activate([
             
-            self.contentView.leadingAnchor.constraint(equalTo: self.viewCell.leadingAnchor),
-            self.contentView.topAnchor.constraint(equalTo: self.viewCell.topAnchor),
-            self.contentView.trailingAnchor.constraint(equalTo: self.viewCell.trailingAnchor),
-            self.contentView.bottomAnchor.constraint(equalTo: self.viewCell.bottomAnchor)
+            self.leadingAnchor.constraint(equalTo: self.viewCell.leadingAnchor),
+            self.topAnchor.constraint(equalTo: self.viewCell.topAnchor),
+            self.trailingAnchor.constraint(equalTo: self.viewCell.trailingAnchor),
+            self.bottomAnchor.constraint(equalTo: self.viewCell.bottomAnchor)
         ])
     }
     
