@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import WMCLib
 
 class AppCoordinator: AppCoordinatorProtocol {
     
@@ -22,12 +23,12 @@ class AppCoordinator: AppCoordinatorProtocol {
     }
     
     func goToListViagem() {
-        let vc: ListViagemViewControllerProtocol = LibServiceLocator.shared.resolver(ListViagemViewControllerProtocol.self)        
+        let vc: ListViagemViewControllerProtocol = WMCServiceLocator.shared.resolver(ListViagemViewControllerProtocol.self)
         self.navigationController.pushViewController(vc as! UIViewController, animated: true)
     }
     
     func goToViagem(_ viagem: Viagem) {
-        var viewModel: ViagemViewModelProtocol = LibServiceLocator.shared.resolver(ViagemViewModelProtocol.self)
+        var viewModel: ViagemViewModelProtocol = WMCServiceLocator.shared.resolver(ViagemViewModelProtocol.self)
         viewModel.viagem = viagem
         viewModel.delegateCoordinator = self
         let vc = ViagemViewController(viewModel: viewModel)

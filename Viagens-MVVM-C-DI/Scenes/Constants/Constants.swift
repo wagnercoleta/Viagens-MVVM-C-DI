@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import WMCLib
 
 struct Localizable {
     static let SNacional = NSLocalizedString("Nacional", comment: "")

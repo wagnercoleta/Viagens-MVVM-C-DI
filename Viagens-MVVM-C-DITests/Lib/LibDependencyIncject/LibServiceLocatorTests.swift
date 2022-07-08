@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import WMCLib
 @testable import Viagens_MVVM_C_DI
 
 class LibServiceLocatorTests: XCTestCase {
@@ -14,7 +15,7 @@ class LibServiceLocatorTests: XCTestCase {
         let sut = makeSut()
         
         sut.register(
-            factory: ViewModelFake.init,
+            instance: ViewModelFake.init(),
             forMetaType: ViewModelFakeProtocol.self
         )
         
@@ -40,8 +41,8 @@ class LibServiceLocatorTests: XCTestCase {
 }
 
 extension LibServiceLocatorTests {
-    func makeSut() -> LibServiceLocatorProtocol {
-        let serviceLocator: LibServiceLocatorProtocol = LibServiceLocator.shared
+    func makeSut() -> WMCServiceLocatorProtocol {
+        let serviceLocator: WMCServiceLocatorProtocol = WMCServiceLocator.shared
         return serviceLocator
     }
 }

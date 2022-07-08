@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import WMCLib
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func registerDependency() {
-        let serviceLocator: LibServiceLocatorProtocol = LibServiceLocator.shared
+        let serviceLocator: WMCServiceLocatorProtocol = WMCServiceLocator.shared
         
         //--------- HttpClient ---------------------------------------------------
         serviceLocator.register(instance: LibAlamofireAdapter.init(),
