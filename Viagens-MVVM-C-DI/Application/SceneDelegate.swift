@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import WMCLib
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -18,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        let appCoordinator: AppCoordinatorProtocol = LibServiceLocator.shared.autoResolve()
+        let appCoordinator: AppCoordinatorProtocol = WMCServiceLocator.shared.autoResolve()
         appCoordinator.start()
         
         let safeWindow = UIWindow(windowScene: windowScene)

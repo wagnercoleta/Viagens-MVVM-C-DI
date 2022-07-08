@@ -8,6 +8,7 @@ target 'Viagens-MVVM-C-DI' do
   # Pods for Viagens-MVVM-C-DI
 
   pod 'Alamofire'
+  pod 'WMCLib'
 
   target 'Viagens-MVVM-C-DITests' do
     inherit! :search_paths
